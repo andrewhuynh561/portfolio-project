@@ -1,36 +1,48 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import portfolio from "../assets/portfolio/portfolio.jpg";
+import recipe from "../assets/portfolio/recipe.jpg";
+import AI from "../assets/portfolio/AI.jpg";
+import reservation from "../assets/portfolio/reservation.png";
+import web from "../assets/portfolio/web.jpg";
+import weather from "../assets/portfolio/weather.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src:portfolio,
+      demo:'https://andrew561-portfolio.netlify.app/',
+      code:'https://github.com/andrewhuynh561/portfolio-project',
     },
     {
       id: 2,
-      src: reactParallax,
+      src: reservation,
+      demo:'https://github.com/andrewhuynh561/Reservation-restaurant',
+      code:'https://github.com/andrewhuynh561/Reservation-restaurant',
     },
     {
       id: 3,
-      src: navbar,
+      src: AI,
+      demo:'https://github.com/andrewhuynh561/Information-Extraction-Tool',
+      code:'https://github.com/andrewhuynh561/Information-Extraction-Tool',
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: web,
+      demo:'https://laxme-website.netlify.app/',
+      code:'https://github.com/andrewhuynh561/Laxme-Website',
     },
     {
       id: 5,
-      src: installNode,
+      src: recipe,
+      demo:'https://recipe-list-1.netlify.app/',
+      code:'https://github.com/andrewhuynh561/recipe-app',
     },
     {
       id: 6,
-      src: reactWeather,
+      src: weather,
+      demo:'https://weather-site561.netlify.app/',
+      code:'https://github.com/andrewhuynh561/weather-app-1',
     },
   ];
 
@@ -48,7 +60,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src,demo,code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -57,10 +69,12 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
-                onClick={() => window.location.href='https://andrew561-portfolio.netlify.app/'}>
+                onClick={() => window.location.href=demo}>
                   Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                 onClick={() => window.location.href=code}
+                >
                   Code
                 </button>
               </div>

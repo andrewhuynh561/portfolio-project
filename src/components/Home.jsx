@@ -9,8 +9,8 @@ const Home = () => {
     <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
-                <h2 className='text-4xl sm:text-7xl font-bold text-white'>I am a Fullstack Developer</h2>
-                <p className='text-gray-500 py-4 max-w-md'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                <h2 className='text-4xl sm:text-7xl font-bold text-white'>I am a FrontEnd Developer</h2>
+                <p className='text-gray-500 py-4 max-w-md'>I am a frontend developer dedicated to crafting beautiful and functional websites. Let's build something amazing together!.</p>
                 <div>
                     <Link to="portfolio" 
                     smooth duration={500}
