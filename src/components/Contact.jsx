@@ -18,10 +18,10 @@ const Contact = () => {
         <div className="flex flex-col md:flex-row justify-between items-center w-full">
           
           {/* Contact Details Card */}
-          <div className="bg-blue-600 p-6 rounded-lg shadow-lg text-center md:w-1/3 mb-8 md:mb-0">
+          <div className="bg-gray-700 p-6 rounded-lg shadow-lg text-center md:w-1/3 mb-8 md:mb-0">
             <h3 className="text-2xl font-bold mb-4">Find Me</h3>
             <p className="mb-2">📧 Email: andrew.huynh561@gmail.com</p>
-            <p>📞 Tel: 0405362155</p>
+            <p className="mb-2"> Tel: 0405362155</p>
           </div>
 
           {/* Contact Form */}
@@ -29,7 +29,7 @@ const Contact = () => {
             <form
               action="https://getform.io/f/71ed5d8e-53fe-4353-aef4-1396c5097ec8"
               method="POST"
-              className="flex flex-col w-full"
+              className="flex flex-col w-full md:w-3/4"
             >
               <input
                 type="text"
