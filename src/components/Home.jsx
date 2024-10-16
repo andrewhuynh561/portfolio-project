@@ -10,7 +10,12 @@ const Home = () => {
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>I am a FrontEnd Developer</h2>
-                <p className='text-gray-500 py-4 max-w-md'>I am a frontend developer dedicated to crafting beautiful and functional websites. Let's build something amazing together!.</p>
+                <p className='text-gray-500 py-4 max-w-md'>
+                Hey there! I'm Andrew, a final-year student at the University of
+            South Australia, working towards my Bachelor of Software
+            Development. I love logical thinking and designing websites. I enjoy
+            the process of turning ideas into visually appealing and
+            user-friendly websites.                    </p>
                 <div>
                     <Link to="portfolio" 
                     smooth duration={500}

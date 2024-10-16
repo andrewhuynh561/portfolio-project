@@ -13,16 +13,43 @@ const Experience = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-       
-        Hey there! I'm Andrew, a final-year student at the University of South Australia, working towards my Bachelor of Software Development. I love logical thinking and designing websites. I enjoy the process of turning ideas into visually appealing and user-friendly websites.        </p>
+        <div className="text-xl mt-10 space-y-6">
+          <p className="text-2xl font-semibold">AI Researcher</p>
+          <p className="italic">Arcana Construct Pty Ltd</p>
+          <p className="text-sm text-gray-400">Mar 2024 – Jun 2024</p>
 
-        <br />
+          <p className="text-lg">
+            During my time as an AI Researcher at Arcana Construct, I was
+            involved in developing innovative AI tools to solve real-world
+            problems. Some of my key contributions include:
+          </p>
 
-        {/* <p className="text-xl">
-        My journey into software development has allowed me to blend creativity with technical skills, and I'm excited to continue growing in this field. In my free time, I love experimenting with new web technologies and contributing to open-source projects. I'm always eager to learn and take on new challenges!
-  
-        </p> */}
+          <ul className="list-disc list-inside space-y-2">
+            <li>
+              Developed an AI tool using Python to extract tables from large
+              PDF files, automating the processing of up to 20 files
+              simultaneously.
+            </li>
+            <li>
+              Utilized the YOLOv8 model and PDF libraries to automate the
+              recognition of two table types from warehouse blueprints.
+            </li>
+            <li>
+              Applied Agile methodologies to ensure timely delivery and
+              continuous improvement of the AI tool.
+            </li>
+            <li>
+              Created detailed documentation for user guidelines and tool
+              evaluation.
+            </li>
+            <li>
+              Collaborated with cross-functional teams to ensure the solution
+              met client requirements and business objectives.
+            </li>
+          </ul>
+
+          
+        </div>
       </div>
     </div>
   );
