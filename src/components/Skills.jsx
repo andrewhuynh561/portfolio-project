@@ -1,5 +1,4 @@
 import React from "react";
-import arcgis from "../assets/arc.png"; 
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
@@ -15,6 +14,9 @@ import dotnet from "../assets/dotnet.png";
 import mysql from "../assets/mysql.png";
 import git from "../assets/git.png";
 import vscode from "../assets/vscode.png";
+import arcgis from "../assets/arc.png";
+import bootstrap from "../assets/bootstrap.png";  // Bootstrap logo
+import jira from "../assets/jira.png";  // Jira logo
 
 const Skills = () => {
   const frontendTechs = [
@@ -23,29 +25,31 @@ const Skills = () => {
     { id: 3, src: css, title: "CSS", style: "shadow-blue-500" },
     { id: 4, src: javascript, title: "JavaScript", style: "shadow-yellow-500" },
     { id: 5, src: tailwind, title: "Tailwind", style: "shadow-sky-400" },
-    { id: 6, src: nextjs, title: "Next JS", style: "shadow-white" },
+    { id: 6, src: bootstrap, title: "Bootstrap", style: "shadow-purple-500" }, // New skill
   ];
-
+  
   const backendTechs = [
-    { id: 7, src: nodejs, title: "Node JS", style: "shadow-green-400" },
-    { id: 8, src: express, title: "Express JS", style: "shadow-gray-500" },
-    { id: 9, src: csharp, title: "C#", style: "shadow-green-700" },
-    { id: 10, src: dotnet, title: "ASP.NET Core", style: "shadow-purple-500" },
-    { id: 11, src: mysql, title: "MySQL", style: "shadow-blue-700" },
-    { id: 12, src: mongodb, title: "MongoDB", style: "shadow-green-400" },
+    { id: 7, src: nextjs, title: "Next JS", style: "shadow-white" },
+    { id: 8, src: nodejs, title: "Node JS", style: "shadow-green-400" },
+    { id: 9, src: express, title: "Express JS", style: "shadow-gray-500" },
+    { id: 10, src: csharp, title: "C#", style: "shadow-green-700" },
+    { id: 11, src: dotnet, title: "ASP.NET Core", style: "shadow-purple-500" },
+    { id: 12, src: mysql, title: "MySQL", style: "shadow-blue-700" },
+    { id: 13, src: mongodb, title: "MongoDB", style: "shadow-green-400" },
   ];
 
   const tools = [
-    { id: 13, src: git, title: "Git", style: "shadow-red-500" },
-    { id: 14, src: github, title: "GitHub", style: "shadow-gray-400" },
-    { id: 15, src: vscode, title: "VS Code", style: "shadow-blue-500" },
-    { id: 16, src: arcgis, title: "ArcGIS", style: "shadow-green-600" },
+    { id: 14, src: git, title: "Git", style: "shadow-red-500" },
+    { id: 15, src: github, title: "GitHub", style: "shadow-gray-400" },
+    { id: 16, src: vscode, title: "VS Code", style: "shadow-blue-500" },
+    { id: 17, src: arcgis, title: "ArcGIS", style: "shadow-green-600" },
+    { id: 18, src: jira, title: "Jira", style: "shadow-blue-600" }, // New tool added
   ];
 
   return (
     <div
       name="skills"
-      className="bg-gradient-to-b from-gray-800 to-black w-full min-h-screen pt-8"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white min-h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>

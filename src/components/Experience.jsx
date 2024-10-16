@@ -35,8 +35,7 @@ const Experience = () => {
               recognition of two table types from warehouse blueprints.
             </li>
             <li>
-              Applied Agile methodologies to ensure timely delivery and
-              continuous improvement of the AI tool.
+            Managed tasks and project timelines using Jira, following Agile methodologies to ensure efficient collaboration and timely delivery.
             </li>
             <li>
               Created detailed documentation for user guidelines and tool
@@ -47,8 +46,10 @@ const Experience = () => {
               met client requirements and business objectives.
             </li>
           </ul>
-
-          
+          <p className="mt-4">
+            <strong>Skills:</strong> Python, GitHub, VSCode, Jira, Pandas, pdfplumber, YOLOv8
+          </p>
+                    
         </div>
       </div>
     </div>

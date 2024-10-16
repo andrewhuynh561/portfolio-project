@@ -4,12 +4,12 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import {Link} from 'react-scroll'
 
 
-const Home = () => {
+const About = () => {
   return (
-    <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white'>
+    <div name="about" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
-                <h2 className='text-4xl sm:text-7xl font-bold text-white'>I am a FrontEnd Developer</h2>
+                <h2 className='text-4xl sm:text-7xl font-bold text-white'>I am a FullStack Developer</h2>
                 <p className='text-gray-500 py-4 max-w-md'>
                 Hey there! I'm Andrew, a final-year student at the University of
             South Australia, working towards my Bachelor of Software
@@ -38,4 +38,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default About

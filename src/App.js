@@ -1,10 +1,11 @@
 import React from 'react';
 import NavBar from './components/NavBar';
-import Home from './components/Home';
+import About from './components/About';
 import SocialLinks from './components/SocialLinks'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
+import Education from './components/Education';
 import Contact from './components/Contact';
 
 
@@ -14,10 +15,11 @@ function App() {
     <div >
       <NavBar/>
       <SocialLinks/>
-      <Home/>
+      <About/>
       <Experience/>
       <Projects/>
       <Skills/>
+      <Education/>
       <Contact/>
 
     </div>

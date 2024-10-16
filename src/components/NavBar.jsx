@@ -12,7 +12,7 @@ const NavBar = () => {
     const links=[
         {
             id:1,
-            link:'home'
+            link:'about'
         },
         {
             id:2,
@@ -28,6 +28,10 @@ const NavBar = () => {
         },
         {
             id:5,
+            link:'education'
+        },
+        {
+            id:6,
             link:'contact'
         },
     ];
