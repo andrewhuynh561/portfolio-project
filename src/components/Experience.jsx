@@ -16,7 +16,7 @@ const Experience = () => {
         <div className="text-xl mt-10 space-y-6">
           <p className="text-2xl font-semibold">AI Researcher</p>
           <p className="italic">Arcana Construct Pty Ltd</p>
-          <p className="text-sm text-gray-400">Mar 2024 – Jun 2024</p>
+          <p className="text-sm text-gray-400">Industry-Linked Project – Mar 2024 – Jun 2024</p>
 
           <p className="text-lg">
             During my time as an AI Researcher at Arcana Construct, I was
