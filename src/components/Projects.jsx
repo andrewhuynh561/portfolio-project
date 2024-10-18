@@ -26,7 +26,7 @@ const Portfolio = () => {
       code: 'https://github.com/andrewhuynh561/Reservation-restaurant',
       title: "Reservation Web",
       description: "Collaborated with four Unisa students to develop a full-stack restaurant reservation system, contributing to reservation booking and account management features.",
-      skills: ["React", "Node.js", "MongoDB", "SQL Lite", "JavaScript"],
+      skills: ["React", "Node.js", "Express.js", "SQL Lite", "JavaScript","Jira" ,"JSON Web Tokens","GitHub"],
     },
     {
       id: 3,
