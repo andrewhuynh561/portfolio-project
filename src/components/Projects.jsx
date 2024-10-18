@@ -1,5 +1,5 @@
 import React from "react";
-import portfolio from "../assets/portfolio/portfolio.jpg";
+import home from "../assets/portfolio/home1.jpeg";
 import recipe from "../assets/portfolio/recipe.jpg";
 import AI from "../assets/portfolio/AI.jpg";
 import reservation from "../assets/portfolio/reservation.png";
@@ -10,12 +10,12 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: portfolio,
-      demo: 'https://andrew561-portfolio.netlify.app/',
-      code: 'https://github.com/andrewhuynh561/portfolio-project',
-      title: "Personal Portfolio",
-      description: "A portfolio to showcase my skills, projects, and experiences.",
-      skills: ["React", "Tailwind", "JavaScript"],
+      src: home,
+      demo: 'https://github.com/andrewhuynh561/Road-Safety-SA/tree/main',
+      code: 'https://github.com/andrewhuynh561/Road-Safety-SA/tree/main',
+      title: "Road Safety SA",
+      description: " A web that visualizes crash and expiation data in South Australia, offering dynamic maps, dashboards, and insights to raise road safety awareness and support decision-making",
+      skills: ["ASP.Net Core MVC", "ArcGIS API", "D3.js" ,"Boostrap" , "SQL server"],
     },
     {
       id: 2,
@@ -23,8 +23,8 @@ const Portfolio = () => {
       demo: 'https://github.com/andrewhuynh561/Reservation-restaurant',
       code: 'https://github.com/andrewhuynh561/Reservation-restaurant',
       title: "Reservation Web",
-      description: "A web application to manage reservations for a restaurant.",
-      skills: ["React", "Node.js", "MongoDB"],
+      description: "Collaborated with four Unisa students to develop a full-stack restaurant reservation system, contributing to reservation booking and account management features.",
+      skills: ["React", "Node.js", "MongoDB","SQL Lite","Javascript"],
     },
     {
       id: 3,
@@ -32,8 +32,8 @@ const Portfolio = () => {
       demo: 'https://github.com/andrewhuynh561/Information-Extraction-Tool',
       code: 'https://github.com/andrewhuynh561/Information-Extraction-Tool',
       title: "AI Information Extraction Tool",
-      description: "An AI tool developed to extract tables from large PDFs using Python.",
-      skills: ["Python", "YOLOv8", "Machine Learning"],
+      description: "AI tools automate the extraction of key data from blueprint designs, improving accuracy and efficiency in analyzing complex plans.",
+      skills: ["Python", "YOLOv8", "Machine Learning","pdfplumber"],
     },
     {
       id: 4,
