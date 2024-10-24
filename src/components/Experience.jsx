@@ -29,8 +29,7 @@ const Experience = () => {
             Developed an AI-based tool using Python that automated table extraction from large PDF files, achieving an 80% accuracy rate and reducing manual work time by 40%.
             </li>
             <li>
-              Utilized the YOLOv8 model and PDF libraries to automate the
-              recognition of two table types from warehouse blueprints.
+            Automated the recognition of two table types from warehouse blueprints using the YOLOv8 model and PDF libraries.
             </li>
             <li>
             Managed tasks and project timelines using Jira, following Agile methodologies to ensure efficient collaboration and timely delivery.
