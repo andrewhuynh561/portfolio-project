@@ -16,17 +16,20 @@ const About = () => {
             Development. I love logical thinking and designing websites. I enjoy
             the process of turning ideas into visually appealing and
             user-friendly websites.                    </p>
-                <div>
-                    <Link to="portfolio" 
-                    smooth duration={500}
-                    className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
-                        View Resume
-                        <span className='group hover:rotate-90 duration-300'>
-                            <MdOutlineKeyboardArrowRight size={25} 
-                            className='ml-1'/>
-                        </span>
-                    </Link>
-                </div>
+            <div>
+                <a
+                    href="https://drive.google.com/file/d/1kIJ__yYH9ChVKe8jqA0iJG-9r5sbsE7U/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+                >
+                    View Resume
+                    <span className="group-hover:rotate-90 duration-300">
+                    <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+                    </span>
+                </a>
+            </div>
+
             </div>
             <div>
                 <img src={Avatar} alt="my profile" 
