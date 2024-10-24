@@ -26,9 +26,7 @@ const Experience = () => {
 
           <ul className="list-disc list-inside space-y-2">
             <li>
-              Developed an AI tool using Python to extract tables from large
-              PDF files, automating the processing of up to 20 files
-              simultaneously.
+            Developed an AI-based tool using Python that automated table extraction from large PDF files, achieving an 80% accuracy rate and reducing manual work time by 40%.
             </li>
             <li>
               Utilized the YOLOv8 model and PDF libraries to automate the
