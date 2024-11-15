@@ -1,7 +1,7 @@
 import React from 'react';
 import Avatar from '../assets/avatar.jpg';
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import {Link} from 'react-scroll'
+
 
 
 const About = () => {
