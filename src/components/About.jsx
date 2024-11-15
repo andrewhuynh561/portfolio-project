@@ -17,17 +17,19 @@ const About = () => {
             the process of turning ideas into visually appealing and
             user-friendly websites.                    </p>
             <div>
-                <a
-                    href="https://drive.google.com/file/d/1kIJ__yYH9ChVKe8jqA0iJG-9r5sbsE7U/view?usp=sharing"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
-                >
-                    View Resume
-                    <span className="group-hover:rotate-90 duration-300">
+            <a
+                href="https://drive.google.com/file/d/1kIJ__yYH9ChVKe8jqA0iJG-9r5sbsE7U/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                download
+                className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+            >
+                View Resume
+                <span className="group-hover:rotate-90 duration-300">
                     <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
-                    </span>
-                </a>
+                </span>
+            </a>
+
             </div>
 
             </div>
