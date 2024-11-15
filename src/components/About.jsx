@@ -21,7 +21,6 @@ const About = () => {
                 href="https://drive.google.com/file/d/1kIJ__yYH9ChVKe8jqA0iJG-9r5sbsE7U/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
-                download
                 className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
             >
                 View Resume
@@ -29,6 +28,7 @@ const About = () => {
                     <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
                 </span>
             </a>
+
 
             </div>
 
