@@ -13,11 +13,11 @@ const Portfolio = () => {
     {
       id: 1,
       src: home,
-      demo: 'https://github.com/andrewhuynh561/Road-Safety-SA/tree/main',
+      demo: 'https://roadsafetyapp.azurewebsites.net/',
       code: 'https://github.com/andrewhuynh561/Road-Safety-SA/tree/main',
       title: "Road Safety SA",
       description: "A web that visualizes crash and expiation data in South Australia, offering dynamic maps, dashboards, and insights to raise road safety awareness and support decision-making.",
-      skills: ["ASP.Net Core MVC", "ArcGIS API", "D3.js", "Boostrap", "SQL server"],
+      skills: ["ASP.Net Core MVC", "ArcGIS API", "D3.js", "Boostrap", "SQL server","Azure"],
     },
     {
       id: 2,
