@@ -5,6 +5,7 @@ import AI from "../assets/portfolio/AI.jpg";
 import reservation from "../assets/portfolio/reservation.png";
 import web from "../assets/portfolio/web.jpg";
 import weather from "../assets/portfolio/weather.jpg";
+import media from "../assets/media.mp4";
 
 const Portfolio = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -22,7 +23,7 @@ const Portfolio = () => {
     {
       id: 2,
       src: reservation,
-      demo: 'https://github.com/andrewhuynh561/Reservation-restaurant',
+      demo: media,
       code: 'https://github.com/andrewhuynh561/Reservation-restaurant',
       title: "Reservation Web",
       description: "Collaborated with four Unisa students to develop a full-stack restaurant reservation system, contributing to reservation booking and account management features.",
