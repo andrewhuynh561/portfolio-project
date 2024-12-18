@@ -17,8 +17,8 @@ const Portfolio = () => {
       demo: 'https://roadsafetyapp.azurewebsites.net/',
       code: 'https://github.com/andrewhuynh561/Road-Safety-SA/tree/main',
       title: "Road Safety SA",
-      description: "I developed an interactive web application that visualizes road crash data and expiation notices in South Australia. I used ASP.NET MVC, Azure Cloud Services, and tools like ArcGIS API and D3.js to build dynamic maps, dashboards, and insights that identify high-risk areas and traffic offence trends.This project is now showcased on the official Data SA website (official South Australian Government data platform) as a success story for the impactful use of open data!",
-      skills: ["ASP.Net MVC", "ArcGIS API", "D3.js", "Boostrap", "SQL server","Azure"],
+      description: "A web application that visualizes crash and expiation data in South Australia, offering dynamic maps, dashboards, and insights to raise road safety awareness and support decision-making. This project is now showcased on the official Data SA website (official South Australian Government data platform) as a success story for the impactful use of open data!",
+      skills: ["ASP.Net  MVC", "ArcGIS API", "D3.js", "Boostrap", "SQL server","Azure"],
     },
     {
       id: 2,
