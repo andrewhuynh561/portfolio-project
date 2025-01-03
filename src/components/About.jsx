@@ -18,7 +18,7 @@ const About = () => {
             user-friendly websites.                    </p>
             <div>
             <a
-                href="https://drive.google.com/file/d/1QgM8pB_xJFOFGcSeNWgMHOJaMQXq8wmi/view?usp=sharing"
+                href="https://drive.google.com/file/d/1J-B0gW-qNMgWP2qnOeU3XjcSAx9Jnke4/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
