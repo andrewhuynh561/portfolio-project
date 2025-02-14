@@ -6,7 +6,7 @@ export const education = [
     id: 0,
     src: unisa,
     school: "University of South Australia",
-    date: "Feb 2022 - Present",
+    date: "Feb 2022 - Dec 2024",
     desc: "Developed a solid foundation in understanding computer systems, algorithms, and software project cycles.",
     degree: "Bachelor of Information Technology (Software Development)",
   },
