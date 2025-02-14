@@ -11,11 +11,7 @@ const About = () => {
             <div className='flex flex-col justify-center h-full'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>I am a FullStack Developer</h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                Hey there! I'm Andrew, a recent graduate from the University of South Australia with a Bachelor of Software Development. I have a passion for problem-solving, full-stack development, and data visualization. I love turning ideas into visually appealing, user-friendly, and functional web applications.
-
-Throughout my journey, I’ve worked on projects that leverage React, ASP.NET Core, Node.js, and RESTful APIs, focusing on real-world solutions, such as road safety data visualization and AI-powered information extraction. I thrive in collaborative environments, applying agile methodologies and working closely with teams to deliver impactful software solutions.
-
-I'm always looking to learn, grow, and build innovative applications that make a difference. Feel free to connect—let’s create something amazing together! 🚀                   </p>
+                Hey there! I'm Andrew, a recent graduate from the University of South Australia with a Bachelor of Software Development. I have a passion for problem-solving, full-stack development, and data visualization. I love turning ideas into visually appealing, user-friendly, and functional web applications.                    </p>
             <div>
             <a
                 href="https://drive.google.com/file/d/1J-B0gW-qNMgWP2qnOeU3XjcSAx9Jnke4/view?usp=sharing"
