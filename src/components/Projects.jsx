@@ -84,17 +84,17 @@ const Portfolio = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-3xl md:text-4xl font-bold inline border-b-4 border-gray-500">
             Projects
           </p>
           <p className="py-6">Click on the project to view more details.</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 px-4 sm:px-0">
           {portfolios.map((project) => (
             <div
               key={project.id}
-              className="shadow-md shadow-gray-600 rounded-lg overflow-hidden cursor-pointer"
+              className="shadow-md shadow-gray-600 rounded-lg overflow-hidden cursor-pointer hover:shadow-xl transition-shadow duration-300"
               onClick={() => openModal(project)}
             >
               <img
@@ -103,8 +103,8 @@ const Portfolio = () => {
                 className="rounded-t-lg duration-200 hover:scale-105 w-full h-48 object-cover"
               />
               <div className="p-4">
-                <h3 className="text-xl font-bold">{project.title}</h3>
-                <p className="text-sm text-gray-400 mt-2">{project.description}</p>
+                <h3 className="text-lg md:text-xl font-bold">{project.title}</h3>
+                <p className="text-sm text-gray-400 mt-2 line-clamp-2">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mt-3">
                   {project.skills.map((skill, index) => (
                     <span
@@ -123,20 +123,20 @@ const Portfolio = () => {
 
       {/* Modal */}
       {selectedProject && (
-        <div className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50">
-          <div className="bg-gray-800 p-8 rounded-lg max-w-lg w-full">
+        <div className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50 p-4">
+          <div className="bg-gray-800 p-4 md:p-8 rounded-lg max-w-lg w-full max-h-[90vh] overflow-y-auto">
             <div className="flex justify-between items-center">
-              <h3 className="text-2xl font-bold text-white">{selectedProject.title}</h3>
-              <button className="text-white text-xl" onClick={closeModal}>
+              <h3 className="text-xl md:text-2xl font-bold text-white">{selectedProject.title}</h3>
+              <button className="text-white text-xl hover:text-gray-300 transition-colors" onClick={closeModal}>
                 &times;
               </button>
             </div>
             <img
               src={selectedProject.src}
               alt={selectedProject.title}
-              className="mt-4 rounded-lg w-full h-64 object-cover"
+              className="mt-4 rounded-lg w-full h-48 md:h-64 object-cover"
             />
-            <p className="mt-4 text-white">{selectedProject.description}</p>
+            <p className="mt-4 text-white text-sm md:text-base">{selectedProject.description}</p>
             <div className="flex flex-wrap gap-2 mt-3">
               {selectedProject.skills.map((skill, index) => (
                 <span
@@ -147,10 +147,10 @@ const Portfolio = () => {
                 </span>
               ))}
             </div>
-            <div className="flex justify-between mt-6">
+            <div className="flex flex-col sm:flex-row justify-between gap-4 mt-6">
               <a
                 href={selectedProject.demo}
-                className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-500 transition duration-200"
+                className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-500 transition duration-200 text-center"
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -158,7 +158,7 @@ const Portfolio = () => {
               </a>
               <a
                 href={selectedProject.code}
-                className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-500 transition duration-200"
+                className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-500 transition duration-200 text-center"
                 target="_blank"
                 rel="noopener noreferrer"
               >

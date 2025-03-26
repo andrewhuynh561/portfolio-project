@@ -8,20 +8,19 @@ import Skills from './components/Skills'
 import Education from './components/Education';
 import Contact from './components/Contact';
 
-
-
 function App() {
   return (
-    <div >
+    <div className="min-h-screen bg-black">
       <NavBar/>
-      <SocialLinks/>
-      <About/>
-      <Experience/>
-      <Projects/>
-      <Skills/>
-      <Education/>
-      <Contact/>
-
+      <div className="pt-16 md:pt-20">
+        <SocialLinks/>
+        <About/>
+        <Experience/>
+        <Projects/>
+        <Skills/>
+        <Education/>
+        <Contact/>
+      </div>
     </div>
   );
 }
